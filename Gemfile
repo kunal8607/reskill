@@ -57,7 +57,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
 end
 
 gem 'will_paginate', '~> 3.1.0'
