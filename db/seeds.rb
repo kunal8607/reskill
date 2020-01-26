@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'faker'
-10000.times do
+100.times do
  User.create(
    name: Faker::Name.first_name,
    # age: Faker::Number.number(2),
