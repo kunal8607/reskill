@@ -1,0 +1,15 @@
+current directory: /Users/bhatiaku/Projects/ruby/reskill/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+/Users/bhatiaku/.rvm/rubies/ruby-2.6.2/bin/ruby -I /Users/bhatiaku/.rvm/rubies/ruby-2.6.2/lib/ruby/2.6.0 -r ./siteconf20200124-14248-3c0tf.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bhatiaku/Projects/ruby/reskill/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/bhatiaku/Projects/ruby/reskill/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/bhatiaku/Projects/ruby/reskill/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20200124-14248-105socd/skiptrace/internal
